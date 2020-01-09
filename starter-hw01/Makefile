@@ -25,7 +25,7 @@ cube.o: cube.s
 	gcc $(CFLAGS) -c -o cube.o cube.s
 
 add1: add1-main.o add1.o
-	gcc -m32 $(CFLAGS) -o add1 add1-main.o add1.o
+	gcc -m32 $(CFLAGS) -o  add1 add1-main.o add1.o
 
 add1-main.o: add1-main.c
 	gcc -m32 $(CFLAGS) -c -o add1-main.o add1-main.c 
